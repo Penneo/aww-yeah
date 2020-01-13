@@ -24,7 +24,7 @@ var input = [{
     }
 }, {
     name: 'uri',
-    default: 'http://dev.penneo.com:8002/app_dev.php/api/v1/'
+    default: 'http://dev.penneo.com:8002/api/v1/'
 }];
 
 
