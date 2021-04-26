@@ -59,7 +59,7 @@ A nice installer will come at a later point, but for now, you'll have to clone t
 
 ```sh
 # Clone the repository
-$ git clone --branch next git@github.com:Penneo/aww-yeah.git
+$ git clone --branch git@github.com:Penneo/aww-yeah.git
 
 # Run the installation script
 # This will install the `aww` command and enable it to be used from any directory
@@ -73,4 +73,4 @@ $ aww init
 
 (Well, if your definition of giant is a pakistani guy that's about 1.77cm)
 
-This project is based on the work of Ahmad Nazir and his first version of Aww Yeah.
+This project is based on the work of [Ahmad Nazir](https://github.com/ahmadnazir) and his first version of Aww Yeah.
