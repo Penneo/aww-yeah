@@ -25,11 +25,11 @@
             "name": "Mock Entrypoint",
             "tasks": {
                 "clone": "git clone --recursive git@github.com:Penneo/mock-entrypoint.git",
-                "setup": "./project-runner/build-image.sh prod",
+                "setup": "echo no setup needed",
                 "run": "./project-runner/run.sh dev",
                 "stop": "./project-runner/run.sh dev stop",
-                "restart": "./project-runner/run.sh dev up -d --force-recreate",
-                "login": "./project-runner/login.sh prod"
+                "restart": "./project-runner/recreate.sh",
+                "login": "./project-runner/local-run.sh sh"
             }
         },
         {
